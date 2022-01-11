@@ -557,11 +557,16 @@ html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:1
      background-size: cover;
      text-align: center;
      text-decoration: none;
+     box-shadow: 0 0.1rem 0.2rem 0 rgb(0 0 0 / 5%);
+     position:relative;
+
      
    }
    
    .work-image:hover {
-    opacity: 0.6;
+    opacity: 0.9;
+    box-shadow: 0 .25rem .525rem 0 rgba(0,0,0,.08);
+    bottom: 2px;
   
    }
    
@@ -574,7 +579,6 @@ html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:1
      background-position: 50% 50%;
      background-size: cover;
      background-repeat: repeat;
-     box-shadow: 2px 2px 4px 0 rgba(0, 0, 0, 0.1);
      mix-blend-mode: normal;
      -o-object-fit: contain;
      object-fit: contain;
@@ -583,7 +587,6 @@ html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:1
    .work-image.cc-work-2 {
      background-image: url("../images/travelinsta2.png");
      background-size: cover;
-     box-shadow: 2px 2px 4px 0 rgba(0, 0, 0, 0.1);
      -o-object-fit: contain;
      object-fit: contain;
    }
@@ -591,7 +594,6 @@ html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:1
    .work-image.cc-work-4 {
      background-image: url("../images/Thumbnail.jpg");
      background-size: cover;
-     box-shadow: 2px 2px 4px 0 rgba(0, 0, 0, 0.1);
      -o-object-fit: contain;
      object-fit: contain;
    }
@@ -599,7 +601,6 @@ html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:1
    .work-image.cc-work-3 {
      background-image: url("../images/Untitled-1Artboard-1.png");
      background-size: cover;
-     box-shadow: 0px 2px 4px 0 rgba(0, 0, 0, 0.1);
      -o-object-fit: contain;
      object-fit: contain;
    }
@@ -760,16 +761,18 @@ html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:1
    .footer-item {
      margin-right: 20px;
      margin-left: 20px;
-     opacity: 0.6;
+     opacity: 0.7;
      font-size: 12px;
      line-height: 20px;
      letter-spacing: 1px;
      text-decoration: none;
      text-transform: none;
+     font-weight: 500;
    }
    
    .footer-item:hover {
-     opacity: 0.9;
+     opacity: 1;
+     font-weight: 700;
    }
    
    .footer-item:active {
@@ -1152,7 +1155,7 @@ html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:1
    
    .text-span-2 {
      border: 1px solid transparent;
-     color: #3f59c0;
+     color: #2879d5;
    }
    
    @media screen and (max-width: 991px) {
