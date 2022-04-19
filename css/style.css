@@ -379,8 +379,8 @@ html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:1
    .navigation-item {
      padding-top: 9px;
      padding-bottom: 9px;
-     opacity: 0.6;
-     font-size: 12px;
+     opacity: 0.7;
+     font-size: 14px;
      line-height: 20px;
      font-weight: 500;
      letter-spacing: 1px;
@@ -390,11 +390,13 @@ html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:1
    
    .navigation-item:hover {
      opacity: 0.9;
+	 font-weight:600;
    }
    
    .navigation-item:active {
-     opacity: 0.8;
-   }
+     opacity: 1;
+	 font-weight:600;
+	 }
    
    .navigation-item.w--current {
      opacity: 1;
@@ -761,8 +763,8 @@ html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:1
    .footer-item {
      margin-right: 20px;
      margin-left: 20px;
-     opacity: 0.7;
-     font-size: 12px;
+     opacity: 0.8;
+     font-size: 14px;
      line-height: 20px;
      letter-spacing: 1px;
      text-decoration: none;
@@ -774,7 +776,15 @@ html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:1
      opacity: 1;
      font-weight: 700;
    }
-   
+   .linkedin:hover{
+	   color:#0e76a8; 
+   }
+   .behance:hover{
+	   color:#053eff;
+   }
+   .dribbble:hover{
+	   color:#ea4c89;
+   }
    .footer-item:active {
      opacity: 0.8;
    }
@@ -1156,6 +1166,37 @@ html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:1
    .text-span-2 {
      border: 1px solid transparent;
      color: #2879d5;
+	background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+	background-size: 400% 400%;
+	background-clip: text;
+	  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+	animation: gradient 10s ease infinite;
+	height: 100vh;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+
+@-webkit-keyframes hue {
+  from {
+    -webkit-filter: hue-rotate(0deg);
+  }
+  to {
+    -webkit-filter: hue-rotate(-360deg);
+  }
+
    }
    
    @media screen and (max-width: 991px) {
@@ -1169,6 +1210,7 @@ html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:1
      }
    
      .section.cc-contact {
+	
        padding-right: 0px;
        padding-left: 0px;
      }
@@ -1262,6 +1304,7 @@ html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:1
      .contact {
        width: auto;
        padding: 30px 50px 40px;
+	   
      }
    
      .contact-headline {
@@ -1524,6 +1567,8 @@ html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:1
        margin-top: 10px;
        margin-bottom: 10px;
        margin-left: 0px;
+	   font-size:14px;
+	   font-weight: 600;
      }
    
      .about-head-text-wrap {
