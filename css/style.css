@@ -111,10 +111,14 @@ html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:1
    li {
      margin-bottom: 10px;
    }
-   
-   img {
+       img {
      display: block;
    }
+   .img_profile {
+     display: block;
+	 border-radius: 80px 0 80px 0;
+   }
+
    
    label {
      margin-bottom: 10px;
@@ -800,7 +804,7 @@ html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:1
      grid-row-gap: 30px;
      grid-template-areas: ". .";
      -ms-grid-columns: 1fr 80px 2fr;
-     grid-template-columns: 1fr 2fr;
+     grid-template-columns: 2fr 2fr;
      -ms-grid-rows: auto;
      grid-template-rows: auto;
    }
@@ -850,14 +854,27 @@ html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:1
    }
    
    .skills-grid {
-     margin-bottom: 140px;
-     grid-column-gap: 80px;
-     grid-row-gap: 30px;
-     grid-template-areas: ". .";
-     -ms-grid-columns: 1fr 80px 1fr;
-     grid-template-columns: 1fr 1fr;
-     -ms-grid-rows: auto;
-     grid-template-rows: auto;
+    display: block;
+    margin-bottom: 140px;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-align-content: center;
+    -ms-flex-line-pack: center;
+    align-content: center;
+    grid-auto-flow: column;
+    grid-column-gap: 80px;
+    grid-row-gap: 30px;
+    grid-template-areas: ". .";
+    -ms-grid-columns: 2.5fr 80px 0.5fr;
+    grid-template-columns: 2.5fr 0.5fr;
+    -ms-grid-rows: auto;
+    grid-template-rows: auto;
    }
    
    .personal-features-grid {
@@ -1340,7 +1357,7 @@ html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:1
      .skillset-wrap {
        padding-right: 0px;
      }
-   
+	 
      .services-items-grid {
        padding-top: 0px;
        grid-row-gap: 0px;
