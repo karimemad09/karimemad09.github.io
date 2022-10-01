@@ -921,6 +921,10 @@ position: static;
    .webflow-link:active {
      opacity: 0.8;
    }
+   .footer-wrap div{
+		width:100%;
+		display:flex;
+		justify-content:center;}
    
    .webflow-logo-tiny {
      margin-top: -2px;
@@ -1809,7 +1813,6 @@ position: static;
      .footer-item {
        margin-top: 10px;
        margin-bottom: 10px;
-       margin-left: 0px;
 	   font-size:14px;
 	   font-weight: 600;
      }
