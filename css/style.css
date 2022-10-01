@@ -921,10 +921,6 @@ position: static;
    .webflow-link:active {
      opacity: 0.8;
    }
-   .footer-wrap div{
-		width:100%;
-		display:flex;
-		justify-content:center;}
    
    .webflow-logo-tiny {
      margin-top: -2px;
@@ -1950,6 +1946,10 @@ position: static;
        -ms-flex-direction: column;
        flex-direction: column;
      }
+	    .footer-wrap div{
+		width:100%;
+		display:flex;
+		justify-content:center;}
    
      .about-head-text-wrap {
        width: 100%;
