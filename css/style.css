@@ -1776,6 +1776,11 @@ position: static;
      .contact-form-wrap {
        text-align: left;
      }
+	 .c-container {
+    padding: 40px 0 0 0;
+    margin-left: auto;
+    margin-right: auto;
+	 max-width: 80%;}
    
      .footer-wrap {
        -webkit-box-orient: vertical;
