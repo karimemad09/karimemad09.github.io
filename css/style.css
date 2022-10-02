@@ -551,9 +551,11 @@ position: static;
 		box-shadow: 2px 2px 0 #000;  
 
    }
-   	 a:hover .icon-fill{stroke:#fff;
+   	 a:hover .icon-fill{
+		stroke:#fff;
 		width:24px;
-	   height:24px;}
+		height:24px;
+		}
 
    
    
