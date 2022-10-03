@@ -561,7 +561,7 @@ position: static;
    
    .navigation-item:hover {
 	 color:#000;
-     opacity: 0.9;
+	 opacity:0.9;
 	 font-weight:600;
 	 border-radius:24px;
 	 border: 2px solid #000;
@@ -575,19 +575,17 @@ position: static;
    
    .navigation-item.w--current {
 	 color:#000;
-     opacity: 0.9;
 	 font-weight:600;
 	 border-bottom: 2px solid #000;
+
    }
   
    .navigation-item.w--current:hover {
-     opacity: 0.8;
-     color: #32343a;
+     color: #000;
    }
    
    .navigation-item.w--current:active {
 	 color:#000;
-     opacity: 0.9;
 	 font-weight:600;
 	 border-bottom: 2px solid #000;
    }
@@ -1425,8 +1423,7 @@ position: static;
 	background-clip: text;
 	  -webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
-
-	animation: gradient 10s ease infinite;
+	animation: gradient 5s ease-in-out infinite;
 	height: 100vh;
 }
 
