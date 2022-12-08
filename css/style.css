@@ -1229,8 +1229,6 @@ position: static;
    
    .detail-image {
      width: 100%;
-     margin-top: 40px;
-     margin-bottom: 30px;
    }
    
    .email-section {
@@ -1999,9 +1997,7 @@ position: static;
        margin-bottom: 85px;
      }
    
-     .detail-image {
-       margin-bottom: 15px;
-     }
+
    
      .email-section {
        width: 80%;
