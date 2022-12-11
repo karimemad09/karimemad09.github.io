@@ -628,7 +628,7 @@ position: static;
    }
   
    .navigation-item.w--current:hover {
-     color: #000;
+     color: #fff;
    }
    
    .navigation-item.w--current:active {
