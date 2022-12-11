@@ -617,7 +617,6 @@ position: static;
    .navigation-item.w--current {
 	 color:#000;
 	 font-weight:600;
-	 color:#ffff;
 	 border-radius:24px;
 	 border: 2px solid #000;
 	 box-shadow: 2px 2px 0 #000;
