@@ -48,6 +48,7 @@ html{font-family:Montserrat,Karla,sans-serif;-ms-text-size-adjust:100%;-webkit-t
      font-size: 36px;
      line-height: 50px;
      font-weight: 400;
+	 color: #f73e00;
    }
    
    h3 {
@@ -61,7 +62,7 @@ html{font-family:Montserrat,Karla,sans-serif;-ms-text-size-adjust:100%;-webkit-t
    h4 {
      margin-top: 10px;
      margin-bottom: 10px;
-     font-size: 24px;
+     font-size: 26px;
      line-height: 38px;
      font-weight: 400;
    }
@@ -69,7 +70,7 @@ html{font-family:Montserrat,Karla,sans-serif;-ms-text-size-adjust:100%;-webkit-t
    h5 {
      margin-top: 10px;
      margin-bottom: 10px;
-     font-size: 20px;
+     font-size: 24px;
      line-height: 34px;
    }
    
@@ -585,7 +586,7 @@ position: static;
    }
    .about-button:hover{
 	 color:#fff;
-	 background-color:#000;
+	 background-color:#f2511b;
 	 	border: 2px solid #000;
 		box-shadow: 2px 2px 0 #000;  
 
@@ -599,10 +600,11 @@ position: static;
    
    
    .navigation-item:hover {
-	 color:#000;
+	 color:#ffff;
 	 opacity:0.9;
 	 font-weight:600;
 	 border-radius:24px;
+	 background-color:#f2511b;
 	 border: 2px solid #000;
 	 box-shadow: 2px 2px 0 #000;
    }
@@ -615,7 +617,11 @@ position: static;
    .navigation-item.w--current {
 	 color:#000;
 	 font-weight:600;
-	 border-bottom: 2px solid #000;
+	 color:#ffff;
+	 border-radius:24px;
+	 border: 2px solid #000;
+	 box-shadow: 2px 2px 0 #000;
+
 
    }
   
@@ -744,7 +750,7 @@ position: static;
 		opacity:0.7
 	}
 		     .work-card:hover .work-description a:hover{
-		color:#2382d5
+		color:#f2511b;
 	}
    
    
@@ -867,6 +873,7 @@ position: static;
    
    .project-name-link:hover {
      opacity: 0.8;
+	 color: #f73e00;
    }
    
    .project-name-link:active {
@@ -1072,13 +1079,13 @@ position: static;
 		width: 200px;
 		height: 1px;
 		margin-top: 30px;
-		background-color: #ececed;
+		background-color: #c1c1c1;
 	}
 	.timeline-second-deco-line {
     display: block;
     width: 1px;
     height: 20px;
-    background-color: #ececed;
+    background-color: #c1c1c1;
 	}
 	.styleguide-divider {
     margin-top: 25px;
@@ -1673,9 +1680,9 @@ position: static;
    }
    .about-button:hover{
 	 color:#fff;
-	 background-color:#000;
-	 	border: 2px solid #000;
-		box-shadow: 2px 2px 0 #000;  
+	 background-color:#f2511b;
+	 border: 2px solid #000;
+	 box-shadow: 2px 2px 0 #000;  
 
    }
    	 a:hover .icon-fill{
@@ -1809,7 +1816,7 @@ position: static;
    }
    .about-button:hover{
 	 color:#fff;
-	 background-color:#000;
+	 background-color:#f2511b;
 	 	border: 2px solid #000;
 		box-shadow: 2px 2px 0 #000;  
 
@@ -1845,7 +1852,7 @@ position: static;
      }
    
      .paragraph-bigger {
-       font-size: 16px;
+       font-size: 20px;
        line-height: 28px;
      }
    
@@ -1878,9 +1885,11 @@ position: static;
      }
    
      .project-name-link {
-       font-size: 16px;
        line-height: 28px;
      }
+	 .project-name-link :active{
+		 	 color: #f73e00;
+	 }
    
      .text-field.cc-textarea {
        text-align: left;
