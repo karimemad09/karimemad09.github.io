@@ -1854,12 +1854,7 @@ position: static;
        margin-right: 15px;
        margin-left: 15px;
      }
-	 .section-project{
-	   margin-bottom: 20px;
-       align-items: center;
-       display: flex;
-	   flex-direction: column;
-	 }
+
    
      .section.cc-contact {
        padding: 15px;
