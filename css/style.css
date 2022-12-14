@@ -1214,7 +1214,7 @@ position: static;
    .project-overview-grid {
      display: block;
      margin-top: 120px;
-     margin-bottom: 135px;
+     margin-bottom: 40px;
      grid-template-areas: ". . . ."
        ". . . .";
      -ms-grid-columns: 1fr 1fr 1fr 1fr;
@@ -1854,6 +1854,12 @@ position: static;
        margin-right: 15px;
        margin-left: 15px;
      }
+	 .section-project{
+	   margin-bottom: 20px;
+       align-items: center;
+       display: flex;
+	   flex-direction: column;
+	 }
    
      .section.cc-contact {
        padding: 15px;
