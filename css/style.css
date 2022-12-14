@@ -27,7 +27,7 @@ html{font-family:Montserrat,Karla,sans-serif;-ms-text-size-adjust:100%;-webkit-t
    }
    
    body {
-     font-family: Montserrat, Karla, sans-serif;
+     font-family: Montserrat,Karla, sans-serif;
      color: #1a1b1f;
      font-size: 16px;
      line-height: 28px;
@@ -70,7 +70,7 @@ html{font-family:Montserrat,Karla,sans-serif;-ms-text-size-adjust:100%;-webkit-t
    h5 {
      margin-top: 10px;
      margin-bottom: 10px;
-     font-size: 24px;
+     font-size: 22px;
      line-height: 34px;
    }
    
@@ -396,8 +396,8 @@ position: static;
    }
    
    .section {
-     margin-top: 80px;
-     margin-bottom: 80px;
+     margin-top: 40px;
+     margin-bottom: 20px;
    }
    
    .section.cc-contact {
@@ -458,12 +458,12 @@ position: static;
    }
    
    .paragraph-bigger {
-     margin-bottom: 10px;
+     margin-bottom: 20px;
      opacity: 1;
-     font-size: 24px;
+     font-size: 20px;
      line-height: 180%;
      font-weight: 400;
-	 color:#4f525c;
+	 color:#222222;
 	 margin-left:auto;
 	 margin-right:auto;
    }
@@ -965,20 +965,16 @@ position: static;
    }
    
    .footer-wrap {
-     display: -webkit-box;
-     display: -webkit-flex;
-     display: -ms-flexbox;
-     display: flex;
-     padding: 40px 50px;
-     -webkit-box-pack: justify;
-     -webkit-justify-content: space-between;
-     -ms-flex-pack: justify;
-     justify-content: space-between;
-     -webkit-box-align: center;
-     -webkit-align-items: center;
-     -ms-flex-align: center;
-     align-items: center;
-	 padding:24px 15% 24px 15%;
+
+	display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: justify;
+    -ms-flex-align: center;
+    align-items: center;
+    padding: 24px 15% 24px 15%;
+    flex-direction: column;
 
    }
    
@@ -1075,6 +1071,13 @@ position: static;
     height: 2px;
     margin-bottom: 15px;
     background-color: #ececed;
+	}
+	   .footer-deco-line {
+    display: inline-block;
+    width: 100%;
+    height: 1px;
+    margin-bottom: 15px;
+    background-color: #8888884d;
 	}
 	.timeline-bottom-deco-line {
 		display: block;
@@ -1363,7 +1366,8 @@ position: static;
    }
    
    .heading-2 {
-     font-size: 32px;
+     font-size: 18px;
+	 font-weight:800;
    }
    
    ._0 {
@@ -1473,6 +1477,8 @@ position: static;
 	-webkit-text-fill-color: transparent;
 	animation: gradient 5s ease-in-out infinite;
 	height: 100vh;
+	font-size:48px;
+	font-weight:700;
 }
 
 @keyframes gradient {
@@ -1854,7 +1860,7 @@ position: static;
      }
    
      .paragraph-bigger {
-       font-size: 20px;
+       font-size: 16px;
        line-height: 28px;
      }
    
